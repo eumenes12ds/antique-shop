@@ -401,7 +401,7 @@ function commitRepair(
     next_chat: PersistedMvuSnapshot
 ) {
     if (!anchorIdentityStillMatches(anchor, expected_content))
-        throw new Error('增量校正目标已变化');
+        throw new Error('差分補正の対象が変更されました');
     const message = SillyTavern.chat[anchor.message_id];
     const metadata = SillyTavern.chatMetadata;
     const message_variables = _.get(message, ['variables', anchor.swipe_id], {});
@@ -410,7 +410,7 @@ function commitRepair(
         !persistedSnapshotMatches(message_variables, expected_message) ||
         (anchor.update_chat_variables && !persistedSnapshotMatches(chat_variables, expected_chat))
     ) {
-        throw new Error('增量校正目标在写入期间发生变化');
+        throw new Error('保存中に差分補正の対象が変更されました');
     }
     /** 仅替换 MVU 持久化字段，保留其他扩展的数据，并同步快照中的字段删除。 */
     const mergeSnapshot = (data: Record<string, any>, snapshot: PersistedMvuSnapshot) => {
@@ -471,7 +471,7 @@ async function saveAndRefreshRepair(anchor: RepairAnchor) {
     } catch (error) {
         console.error('[MVU] repair committed but save/refresh failed', error);
         toastr.warning(
-            '变量与正文已同步更新，但保存或刷新失败，请检查连接并保存聊天',
+            '変数と本文は更新済みですが、保存または再表示に失敗しました。接続を確認してチャットを保存してください。',
             tr('runtime.incrementalRepair.title')
         );
     }

@@ -556,7 +556,7 @@ export function parseAndValidateExtraModelResult(result: string): string | null 
     }
     if (patches.length) {
         // 3. 检查补丁边界：任何未闭合补丁都拒绝。
-        if (patches.some(block => !block.closed)) throw new Error('JSONPatch 标签未闭合');
+        if (patches.some(block => !block.closed)) throw new Error('JSONPatchタグが閉じられていません');
         // 4. 检查补丁内容：去掉代码围栏后解析 JSON/JSON5/YAML，检查操作数组的基本结构，
         // 并拒绝 NaN、Infinity、循环引用等无法安全表示为 JSON 的值；不在此执行操作。
         for (const block of patches) {

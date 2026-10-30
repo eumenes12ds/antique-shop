@@ -3,7 +3,7 @@
 Static illustration and Japanese runtime dependencies for **白薔薇の古道具屋**.
 The character card, worldbook, private preset, user accounts, conversations and connection credentials are not included.
 
-Release: `v2026.10.30.1`. Use the immutable release tag in character-card imports.
+Release: `v2026.10.30.2`. Use the immutable release tag in character-card imports.
 
 - `assets/opening.webp`: 1672 × 941 illustration, 335488 bytes. Retained from the owner-provided Japanese coastal antique-shop edition. Loaded externally; never embedded as a data URL.
 - `vendor/mvu.js`: Japanese localization of the exact MagVarUpdate artifact used by the source card. Upstream checkout `d03b7dc8a6ebf9bd611c7e2dc91f3b35462deebc`, upstream artifact SHA-256 `a5d6166d43a78c7fad05669864efd76852f58eea905814dcd89f8e1b29fa4b27`. Original artifact build identifier: `7574d47`.
@@ -16,3 +16,5 @@ Japanese settings use `mvu_jp_settings`, store `MVU変数フレームワーク`,
 Build: from `source/MagVarUpdate`, `npm ci --ignore-scripts --legacy-peer-deps`, then `CI=true npm run build`. The task's build required Ajv 8 to satisfy ajv-keywords 5. ESM downloads are mirrored after compilation; no provider requests are made during build or validation.
 
 Upstream copyright notices, bundled license notices and available license texts are retained. See `LICENSES.json`, `LICENSE-MagVarUpdate`, `LICENSE-tavern_resource` and `licenses/`. Upstream Chinese comments and compatibility aliases are technical provenance, not Japanese UI text.
+
+The Zod adapter’s historical schema sentinel remains byte-for-byte compatible with the upstream parser. It is protocol data, not interface text. Release .2 also translates four direct error messages. Provider diagnostics retained for error classification are mapped to Japanese UI through the runtime error-localization layer.

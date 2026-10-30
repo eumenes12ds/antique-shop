@@ -698,15 +698,15 @@
   {
     "upstream": "https://testingcf.jsdelivr.net/gh/MagicalAstrogy/MagVarUpdate/artifact/bundle.js",
     "path": "vendor/mvu.js",
-    "sha256": "450949af216ba3c9e0ed74cd7d1ae00cb411dd1d4c4211c2d60193d6f125034a",
-    "bytes": 593303,
+    "sha256": "6050be749856eff7ccad72d63d003e1128d8eca42470b28b5d8bcef949767b80",
+    "bytes": 593416,
     "localized": true
   },
   {
     "upstream": "https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/util/mvu_zod.js",
     "path": "vendor/mvu-zod.js",
-    "sha256": "8d4359ed22a3ad013cc3394c81ce1c3c43c9f3ac27a571f393c39cae32bf5c70",
-    "bytes": 4615,
+    "sha256": "9cc6bf6bd993ea11ee2184d96d4cb9ee4526e123d27a0b2cc9f865c7d410d43a",
+    "bytes": 4612,
     "localized": true
   }
 ]
