@@ -1,0 +1,272 @@
+[
+  {
+    "name": "json5",
+    "version": "2.2.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/json5/json5.git"
+    },
+    "file": "licenses/json5@2.2.3.txt"
+  },
+  {
+    "name": "mathjs",
+    "version": "15.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/josdejong/mathjs.git"
+    },
+    "file": "licenses/mathjs@15.2.0.txt"
+  },
+  {
+    "name": "@intlify/shared",
+    "version": "11.4.16",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/intlify/vue-i18n.git",
+      "directory": "packages/shared"
+    },
+    "file": "licenses/@intlify_shared@11.4.16.txt"
+  },
+  {
+    "name": "jsonrepair",
+    "version": "3.15.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/josdejong/jsonrepair.git"
+    },
+    "file": "licenses/jsonrepair@3.15.0.txt"
+  },
+  {
+    "name": "klona",
+    "version": "2.0.6",
+    "license": "MIT",
+    "repository": "lukeed/klona",
+    "file": "licenses/klona@2.0.6.txt"
+  },
+  {
+    "name": "@intlify/core-base",
+    "version": "11.4.16",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/intlify/vue-i18n.git",
+      "directory": "packages/core"
+    },
+    "file": "licenses/@intlify_core-base@11.4.16.txt"
+  },
+  {
+    "name": "compare-versions",
+    "version": "6.1.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/omichelsen/compare-versions.git"
+    },
+    "file": "licenses/compare-versions@6.1.1.txt"
+  },
+  {
+    "name": "zod",
+    "version": "4.6.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/colinhacks/zod.git"
+    },
+    "file": "licenses/zod@4.6.7.txt"
+  },
+  {
+    "name": "@google/genai",
+    "version": "2.21.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/googleapis/js-genai.git"
+    },
+    "file": "licenses/@google_genai@2.21.0.txt"
+  },
+  {
+    "name": "@earendil-works/pi-ai",
+    "version": "1.3.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/earendil-works/pi.git",
+      "directory": "packages/ai"
+    }
+  },
+  {
+    "name": "escape-latex",
+    "version": "1.2.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dangmai/escape-latex"
+    },
+    "file": "licenses/escape-latex@1.2.0.txt"
+  },
+  {
+    "name": "tiny-emitter",
+    "version": "2.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/scottcorgan/tiny-emitter.git"
+    },
+    "file": "licenses/tiny-emitter@2.1.0.txt"
+  },
+  {
+    "name": "@babel/runtime",
+    "version": "7.29.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-runtime"
+    },
+    "file": "licenses/@babel_runtime@7.29.2.txt"
+  },
+  {
+    "name": "javascript-natural-sort",
+    "version": "0.7.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Bill4Time/javascript-natural-sort.git"
+    }
+  },
+  {
+    "name": "seedrandom",
+    "version": "3.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/davidbau/seedrandom.git"
+    }
+  },
+  {
+    "name": "fraction.js",
+    "version": "5.3.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/rawify/Fraction.js.git"
+    },
+    "file": "licenses/fraction.js@5.3.4.txt"
+  },
+  {
+    "name": "typed-function",
+    "version": "4.2.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/josdejong/typed-function.git"
+    },
+    "file": "licenses/typed-function@4.2.2.txt"
+  },
+  {
+    "name": "complex.js",
+    "version": "2.4.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:rawify/Complex.js.git"
+    },
+    "file": "licenses/complex.js@2.4.3.txt"
+  },
+  {
+    "name": "@intlify/message-compiler",
+    "version": "11.4.16",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/intlify/vue-i18n.git",
+      "directory": "packages/message-compiler"
+    },
+    "file": "licenses/@intlify_message-compiler@11.4.16.txt"
+  },
+  {
+    "name": "decimal.js",
+    "version": "10.6.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MikeMcl/decimal.js.git"
+    }
+  },
+  {
+    "name": "typebox",
+    "version": "1.3.27",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sinclairzx81/typebox"
+    },
+    "file": "licenses/typebox@1.3.27.txt"
+  },
+  {
+    "name": "partial-json",
+    "version": "0.1.7",
+    "license": "MIT",
+    "repository": "https://github.com/promplate/partial-json-parser-js",
+    "file": "licenses/partial-json@0.1.7.txt"
+  },
+  {
+    "name": "openai",
+    "version": "7.19.0",
+    "license": "Apache-2.0",
+    "repository": "github:openai/openai-node",
+    "file": "licenses/openai@7.19.0.txt"
+  },
+  {
+    "name": "p-retry",
+    "version": "4.6.2",
+    "license": "MIT",
+    "repository": "sindresorhus/p-retry",
+    "file": "licenses/p-retry@4.6.2.txt"
+  },
+  {
+    "name": "@anthropic-ai/sdk",
+    "version": "0.129.0",
+    "license": "MIT",
+    "repository": "github:anthropics/anthropic-sdk-typescript",
+    "file": "licenses/@anthropic-ai_sdk@0.129.0.txt"
+  },
+  {
+    "name": "standardwebhooks",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/standard-webhooks/standard-webhooks"
+  },
+  {
+    "name": "retry",
+    "version": "0.13.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/tim-kos/node-retry.git"
+    }
+  },
+  {
+    "name": "fast-sha256",
+    "version": "1.3.0",
+    "license": "Unlicense",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dchest/fast-sha256-js"
+    },
+    "file": "licenses/fast-sha256@1.3.0.txt"
+  },
+  {
+    "name": "@stablelib/base64",
+    "version": "1.0.1",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/StableLib/stablelib"
+    },
+    "file": "licenses/@stablelib_base64@1.0.1.txt"
+  }
+]
